@@ -221,12 +221,12 @@ export const managers = [
     {
        "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Andrej Kuhelj",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Gorjuša, Slovenia", // (optional)
        "bio": "100% get emotionally attached to my squad",
        "photo": "/managers/andrej.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2016, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "arz", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "ari", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Rok Gregorič", // Can be anything (usually your rival's name)
