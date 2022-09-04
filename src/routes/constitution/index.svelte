@@ -128,7 +128,7 @@
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
-	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>4.3 Playoff Tiebreakers</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>4.3 Toilet Bowl</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
