@@ -118,7 +118,7 @@
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Keepers</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -128,6 +128,7 @@
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>4.3 Playoff Tiebreakers</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
@@ -172,10 +173,6 @@
 
     <p>4 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        
-
-
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
     <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
@@ -199,44 +196,44 @@
 
     <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
     <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
+        <p>Any player traded from a team may not be re-acquired via trade within 2 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
     </div>
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>The trade deadline will be set for the Saturday of the week 13 games of the NFL season.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2022 season you cannot trade any picks in or after the 2026 draft. You may only trade FAAB $ from the current season.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+        <p>A total of 5 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
     </div>
     
     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $500. $0 bids are allowed. Bids will process on Mondays, Wednesdays, Thursdays, Saturdays and Sundays at midnight.</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>FAAB budgets will reset each season after the NFL's Superbowl.</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings and playoff results. Reversed regular season standings sets the order for spots 1-6 and the reversed playoff standings sets the remaining spots from 7-10.</p>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
+    <h3 bind:this={twoTwo}>2.2 Draft</h3>
+    <p>Drafts will consist of 6 round of drafting, with 2 minutes alotted for each pick. Owners are drafting in the order from 2.1 point. Players available to be drafted are rookies + all free agents at the time of drafting. If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <h3 bind:this={twoThree}>2.3 Keepers</h3>
+    <p>Keepers must be set and locked one hour prior to the start of the draft. Owners must select 16 players as their keepers.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
@@ -246,19 +243,23 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>At the end of the regular season, 6 teams will make the playoffs. The first round of playoffs will commence in week 14. The 1st and 2nd ranked team after the regular season will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 17 and week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
     <ol>
+	<li>Head 2 Head Record</li>
         <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
         <li>Duel to the death</li>
     </ol>
+	
+    <h3 bind:this={fourThree}>4.3 Toilet Bowl</h3>
+    <p>At the end of the regular season, the last 4 teams will try to avoid the Toilet Bowl title. In the Toilet Bowl, the loser advances to the next round, until there becomes an ultimate loser, who is crowned the "💩King" (last place).</p>
+    <p>The goal is to exit the Toilet Bowl as quickly as possible to claim 7th and 8th spots and avoid being the worst team in your league. </p>
+    <p>The loser of the Toilet bowl will receive punishment from the other owners. </p>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
@@ -268,7 +269,7 @@
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally not the grounds for removal.</p>
     
     <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
@@ -279,18 +280,18 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at 10€. Dues are collected by the league comissioner and must be paid by the end of the current season's NFL Superbowl for the next season. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 50% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: 50€</li>
+        <li>2nd place: 30€</li>
+        <li>3rd place: 20€</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <p>A 3/4 majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
 </div>
