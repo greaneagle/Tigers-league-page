@@ -25,7 +25,7 @@ export const managers = [
        "name": "Gregor Vašcer Erban",
        "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Kranj, Slovenia", // (optional)
-       "bio": "Lorem ipsum...",
+       "bio": "I'm that type of the owner who never wants to hit a rebuild mode - win now all the time.",
        "photo": "/managers/grega.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2016, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
