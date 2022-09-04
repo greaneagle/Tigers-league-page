@@ -16,6 +16,11 @@ export const homepageText = `
 In contrast to the addition of the mini managers, some managers have also left but, despite that, the league has only gotten stronger. With more passionate managers, the competition has become more intense and more difficult each year. </p>
 <p> </p>
 While the ultimate prize is bragging rights and sending obnoxious texts to the rest of the league for the next year, the champion manager also walks away with 50€ and the loser of the Toilet Bowl has to do a punishment.
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
 `;
 
 /*   STEP 3   */
