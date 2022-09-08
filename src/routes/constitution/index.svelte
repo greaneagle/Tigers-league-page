@@ -172,6 +172,9 @@
     <p>12 Bench</p>
 
     <p>4 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+	
+    <p>At the start of the season (first game of the season), no team owner can have more than 22 players on their roster (the IR spots are not calculated in the 22 roster spots). If the team owner has more than 22 players on their roster, league can vote which of his bench players can commissioner of the league force drop.</p>
+	
     
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
@@ -275,12 +278,12 @@
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <p>In the event that a manager chooses to quit the league or is removed by a commissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at 10€. Dues are collected by the league comissioner and must be paid by the end of the current season's NFL Superbowl for the next season. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 50% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at 10€. Dues are collected by the league commissioner and must be paid by the end of the current season's NFL Superbowl for the next season. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 50% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
