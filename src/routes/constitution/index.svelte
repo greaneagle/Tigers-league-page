@@ -171,7 +171,7 @@
     
     <p>12 Bench</p>
 
-    <p>4 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>4 IR Spots (Player must be labeled as IR, PUP, Out, or Covid in the Sleeper App)</p>
 	
     <p>At the start of the season (first game of the season), no team owner can have more than 22 players on their roster (the IR spots are not calculated in the 22 roster spots). If the team owner has more than 22 players on their roster, league can vote which of his bench players can commissioner of the league force drop to reach the required limit of 22 players.</p>
 	
