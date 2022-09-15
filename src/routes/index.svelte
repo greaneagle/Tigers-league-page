@@ -149,16 +149,17 @@
 
 <div id="home">
     <div id="main">
+	 <PowerRankings />
         <div class="text">
-            <h6>{leagueName}</h6>
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
-            {@html homepageText }
             <!-- Most recent Blog Post (if enabled) -->
             {#if enableBlog}
                 <HomePost />
             {/if}
+	    <h6>{leagueName}</h6>
+            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
+            {@html homepageText }
         </div>
-        <PowerRankings />
+       
     </div>
     
     <div class="leagueData">
