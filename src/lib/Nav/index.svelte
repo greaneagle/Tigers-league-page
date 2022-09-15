@@ -84,8 +84,7 @@
 </style>
 
 <nav>
-	<a href="https://sleeper.com/leagues/830164086737182720"><img id="logo" alt="league logo" src="./badge.png" /></a>  //THIS IS WHERE WE CHANGE WHERE LOGO TAKES US! logolink
-
+	<a href="/"><img id="logo" alt="league logo" src="./badge.png" /></a>
 	<div class="container">
 		<IconButton
 			toggle
